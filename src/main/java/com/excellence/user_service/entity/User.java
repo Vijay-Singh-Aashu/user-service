@@ -25,5 +25,5 @@ public class User {
 	private String lastName;
 	@Column(nullable = false, unique = true)
 	private String email;
-	private String departmentId;
+	private Long departmentId;
 }
